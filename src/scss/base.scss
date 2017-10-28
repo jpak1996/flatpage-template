@@ -23,3 +23,142 @@ i.fi-social-tumblr {
   color: skyblue;
   font-size: 2rem;
 }
+/*Media query*/
+@media only screen and (max-width: 768px) {
+    /* For mobile phones, fit central image to entire screen width */
+    img {
+        width: 100%;
+    }
+}
+
+body {
+	width: 100%;
+	font-size: 100%;
+	font-family: 'Roboto Slab', serif;
+	color: black;
+	background-color: white;
+	font-weight: normal;
+}
+
+header {
+	text-align: center;
+	background-color: #006EFF;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 1em;
+}
+
+h1 {
+	font-variant: small-caps;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+	color: black;
+	font-family: 'Roboto Slab', serif;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+
+nav {
+	background-color: #00E1FF;
+	overflow: hidden;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20em;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	padding: 0.5em;
+	text-decoration: none;
+	font-variant: small-caps;
+	color: black;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+img {
+   padding:1px;
+   border:1px solid #021a40;
+   border-color: black;
+   border-width: 0.2em;
+   border-style: solid;
+   border-radius: 25px;
+   width: 40%; /*for desktops*/
+   
+}
+
+#pic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+div #main {
+	float: left;
+	width: 60%;
+	color: white;
+}
+
+#main {
+	clear: both;
+	float: middle;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 5%;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: 'Roboto Slab', serif;
+}
+
+form {
+	margin-left: 35%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+#thisweek {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	font-size: 80%;
+	float: right;
+	width: 20%;
+	padding-left: 1%;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-right: 5%;
+	margin-bottom: 1em;
+	margin-top: 0;
+	margin-left: 0;
+	border: 5px solid;
+	border-radius: 25px;
+	background-image: url("mario.gif");
+}
+
+footer {
+	clear: both;
+	background-color: #00E1FF;
+}
+
+	

@@ -2,9 +2,62 @@
 <html class="no-js" lang="en-US">
 {% include "../partials/head.njk" %}
 
+
 <body>
   {% include "../partials/header.njk" %}
+  <div id="pic" align="middle">
+  <img src="../../img/seal.gif" align="middle" width="750" height="450">
+  </div>
 
+
+  <div id="main" align="left">
+   <h2>About me</h2>
+     <p>Hey what's up I'm an intern at DB</p>
+   
+   <ol>
+   <li>Guess what came in the mail today?</li>
+   <li><a href="https://www.youtube.com/watch?v=5LlQNty_C8s">Click here to find out</a></li>
+   </ol>
+  </div>
+
+  <br>
+
+  <form action="mailto:kaileymon@gmail" method="post" enctype="text/plain">
+   First name:<br>
+   <input type="text" name="firstname"><br>
+   Last name:<br>
+   <input type="text" name="lastname"><br>
+   E-mail:<br>
+   <input type="text" name="mail"><br><br>
+   
+   <input type="radio" name="gender" value="male" checked> Male<br>
+   <input type="radio" name="gender" value="female"> Female<br>
+   <input type="radio" name="gender" value="other"> Other<br><br>
+    
+   What's your go-to UCLA dining hall?<br>
+   <select name="hodor">
+   <option value="Feast">Feast</option>
+   <option value="Feast">Feast</option>
+   <option value="Feast">Feast</option>
+   <option value="Feast">Feast</option>
+   <option value="Others">Others</option>
+   
+   <div class="content">
+   </div>
+   </select><br><br>
+   
+   If you selected others, please explain:<br><br>
+   <textarea name="message" rows="10" cols="30"></textarea><br><br>
+   
+   <input type="reset" value="Reset">
+   <input type="submit" value="Submit">
+
+  </form>
+
+  <div id="thisweek">
+     <h2>Instructions</h2>
+     <p>Please help us improve the site by providing feedback.<br><br>Click submit when you are done.</p>    
+  </div>
   <div class="content">
     {% block content %}{% endblock %}
   </div>
